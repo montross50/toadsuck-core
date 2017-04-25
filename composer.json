@@ -25,7 +25,7 @@
 		"league/plates": "1.0.*",
 		"fuelphp/config": "dev-master",
 		"illuminate/database": "4.2.*@dev",
-		"prelude/prelude-dsn": "dev-master",
+		"prelude/prelude-dsn": "v1.0",
 		"symfony/http-foundation": "2.5.*@dev"
 	},
 
@@ -33,6 +33,11 @@
 		"phpunit/phpunit": "3.7.*",
 		"squizlabs/php_codesniffer": "1.*"
 	},
-	
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/montross50/prelude-dsn"
+		}
+    	],
 	"minimum-stability": "dev"
 }
